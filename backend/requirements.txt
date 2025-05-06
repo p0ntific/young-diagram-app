@@ -1,0 +1,7 @@
+numpy>=1.19.0
+scipy>=1.5.0
+matplotlib>=3.3.0
+scikit-image>=0.17.0  # Опционально, для визуализации предельной формы в 3D
+fastapi>=0.95.0
+uvicorn>=0.22.0
+pillow>=9.0.0 
