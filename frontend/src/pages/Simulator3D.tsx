@@ -64,7 +64,7 @@ const Simulator3D: React.FC = () => {
                         align="center"
                         style={{ flex: 2 }}
                     >
-                        <FlexBox style={{ height: "100%", width: "100%" }}>
+                        <FlexBox style={{ height: "600px", width: "100%" }}>
                             {error ? (
                                 <FlexBox
                                     justify="center"
@@ -77,37 +77,29 @@ const Simulator3D: React.FC = () => {
                                     {error}
                                 </FlexBox>
                             ) : showLimitShape ? (
-                                <FlexBox
-                                    justify="center"
-                                    align="center"
-                                    style={{
-                                        width: "100%",
-                                        height: "100%",
-                                    }}
-                                >
-                                    {isLoading ? (
-                                        <p>Загрузка предельной формы...</p>
-                                    ) : limitShapeImage ? (
-                                        <img
-                                            src={limitShapeImage}
-                                            alt="Предельная форма диаграммы Юнга"
-                                            style={{
-                                                width: "100%",
-                                                height: "567px",
-                                                objectFit: "cover",
-                                            }}
-                                        />
-                                    ) : (
-                                        <p>
-                                            Нажмите на кнопку "Показать
-                                            предельную форму" для загрузки
-                                            изображения
-                                        </p>
-                                    )}
-                                </FlexBox>
+                                isLoading ? (
+                                    <p>Загрузка предельной формы...</p>
+                                ) : limitShapeImage ? (
+                                    <img
+                                        src={limitShapeImage}
+                                        alt="Предельная форма диаграммы Юнга"
+                                        style={{
+                                            width: "100%",
+                                            height: "600px",
+                                            objectFit: "cover",
+                                        }}
+                                    />
+                                ) : (
+                                    <p>
+                                        Нажмите на кнопку "Показать предельную
+                                        форму" для загрузки изображения
+                                    </p>
+                                )
                             ) : (
                                 <VisualizationCanvas3D
+                                    isVisible={!showLimitShape}
                                     cells={cells}
+                                    key={`3d-${showLimitShape}`}
                                     isLoading={isLoading}
                                     simulationParams={simulationParams}
                                 />

@@ -36,7 +36,7 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
     };
 
     return (
-        <form className="visualization-container" onSubmit={handleSubmit}>
+        <div className="visualization-container">
             <FlexBox direction="column" padding={24} gap={24}>
                 <h2>Параметры симуляции</h2>
 
@@ -107,6 +107,7 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
                 <button
                     type="submit"
                     className="primary"
+                    onClick={handleSubmit}
                     disabled={isLoading}
                     style={{ position: "relative", width: "100%" }}
                 >
@@ -130,7 +131,7 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
                     </button>
                 )}
             </FlexBox>
-        </form>
+        </div>
     );
 };
 

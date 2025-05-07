@@ -149,8 +149,10 @@ export const useSimulation2D = () => {
     const handleToggleView = useCallback(() => {
         if (!showLimitShape && !limitShapeImage && isSimulationCompleted) {
             fetchLimitShape();
+            setShowLimitShape(true);
+        } else {
+            setShowLimitShape((prev) => !prev);
         }
-        setShowLimitShape(!showLimitShape);
     }, [
         showLimitShape,
         limitShapeImage,

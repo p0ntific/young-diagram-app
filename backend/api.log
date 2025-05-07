@@ -515,3 +515,22 @@
 2025-05-07 01:07:42,889 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 674 клеток.
 2025-05-07 01:07:42,892 - young_diagrams_api - INFO - Завершение запроса 2320573b-13ab-42de-80f1-1e62b8cbf67e: 200 за 0.1278с
 2025-05-07 01:08:03,721 - young_diagrams_api - INFO - Завершение работы приложения Young Diagrams API
+2025-05-07 13:50:45,386 - young_diagrams_api - INFO - Запуск приложения Young Diagrams API v1.1.0
+2025-05-07 13:51:00,159 - young_diagrams_api - INFO - Начало запроса e0bd710e-834f-4623-b3bc-4077063b6fe4: OPTIONS /api/simulate/3d
+2025-05-07 13:51:00,160 - young_diagrams_api - INFO - Завершение запроса e0bd710e-834f-4623-b3bc-4077063b6fe4: 200 за 0.0014с
+2025-05-07 13:51:00,163 - young_diagrams_api - INFO - Начало запроса 5dc3d9af-ab97-4465-8977-c1976cc568db: POST /api/simulate/3d
+2025-05-07 13:51:00,163 - young_diagrams_api - INFO - Завершение запроса 5dc3d9af-ab97-4465-8977-c1976cc568db: 404 за 0.0006с
+2025-05-07 13:51:11,933 - young_diagrams_api - INFO - Начало запроса 09ecda02-8224-4152-980d-2e84d6aab1cd: OPTIONS /simulate/3d
+2025-05-07 13:51:11,933 - young_diagrams_api - INFO - Завершение запроса 09ecda02-8224-4152-980d-2e84d6aab1cd: 200 за 0.0008с
+2025-05-07 13:51:11,936 - young_diagrams_api - INFO - Начало запроса 0dfc52f3-7068-4250-b932-2a129bf55d8b: POST /simulate/3d
+2025-05-07 13:51:11,938 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=500 alpha=0.5 beta=1.0 gamma=1.0 runs=5
+2025-05-07 13:51:12,010 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 13:51:12,054 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 13:51:12,095 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 13:51:12,136 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 13:51:12,182 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 13:51:12,182 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 791 клеток.
+2025-05-07 13:51:12,185 - young_diagrams_api - INFO - Завершение запроса 0dfc52f3-7068-4250-b932-2a129bf55d8b: 200 за 0.2498с
+2025-05-07 13:51:14,496 - young_diagrams_api - INFO - Начало запроса 3a59c342-c9c6-4ce2-89a5-9ce748797f67: GET /limit-shape/3d
+2025-05-07 13:51:17,069 - young_diagrams_api - INFO - Завершение запроса 3a59c342-c9c6-4ce2-89a5-9ce748797f67: 200 за 2.5729с
+2025-05-07 13:51:26,476 - young_diagrams_api - INFO - Завершение работы приложения Young Diagrams API
