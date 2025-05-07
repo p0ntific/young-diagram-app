@@ -265,11 +265,9 @@ const VisualizationCanvas2D: React.FC<IVisualizationCanvas2DProps> = ({
             }
         }
 
-        let maxX = 0;
         let maxY = 0;
         cells.forEach((cell) => {
-            maxX = Math.max(maxX, cell.x);
-            maxY = Math.max(maxY, cell.y); // For positioning runs info
+            maxY = Math.max(maxY, cell.y);
         });
 
         const { runs } = simulationParams;
@@ -293,7 +291,7 @@ const VisualizationCanvas2D: React.FC<IVisualizationCanvas2DProps> = ({
             }
 
             const cube = new THREE.Mesh(geometry, cubeMaterial);
-            cube.position.set(cell.x - maxX / 2, cell.y, 0);
+            cube.position.set(cell.x, cell.y, 0);
             cube.castShadow = true;
             cube.receiveShadow = true;
             group.add(cube);

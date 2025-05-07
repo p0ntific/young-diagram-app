@@ -43,12 +43,12 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
                 <FlexBox direction="column" gap={16} style={{ width: "100%" }}>
                     <label>
                         <div style={{ marginBottom: "8px" }}>
-                            Количество шагов (10-5000)
+                            Количество шагов (10-10000)
                         </div>
                         <input
                             type="number"
                             min={10}
-                            max={5000}
+                            max={10000}
                             value={steps}
                             onChange={(e) => setSteps(e.target.value)}
                             placeholder={defaultParams.steps.toString()}
@@ -58,7 +58,7 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
 
                     <label>
                         <div style={{ marginBottom: "8px" }}>
-                            Параметр α (0.1-5.0)
+                            Параметр α (-4.0 - 4.0)
                             <div
                                 style={{
                                     fontSize: "0.8rem",
@@ -70,9 +70,8 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
                         </div>
                         <input
                             type="number"
-                            min={0.1}
-                            max={5.0}
-                            step={0.1}
+                            min={-4}
+                            max={4}
                             value={alpha}
                             onChange={(e) => setAlpha(e.target.value)}
                             placeholder={defaultParams.alpha.toString()}
@@ -82,7 +81,7 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
 
                     <label>
                         <div style={{ marginBottom: "8px" }}>
-                            Количество запусков (1-10)
+                            Количество запусков (1-50)
                             <div
                                 style={{
                                     fontSize: "0.8rem",
@@ -95,7 +94,7 @@ const SimulationForm: React.FC<ISimulationFormProps> = ({
                         <input
                             type="number"
                             min={1}
-                            max={10}
+                            max={50}
                             value={runs}
                             onChange={(e) => setRuns(e.target.value)}
                             placeholder={defaultParams.runs.toString()}

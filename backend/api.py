@@ -93,17 +93,14 @@ async def log_requests(request: Request, call_next):
         logger.error(f"Ошибка в запросе {request_id}: {str(e)}")
         raise
         
-# Модели данных для API - без algorithm, который всегда random
 class SimulationParams2D(BaseModel):
-    steps: int = Field(100, ge=10, le=5000, description="Количество шагов симуляции")
-    alpha: float = Field(1.0, ge=0.1, le=5.0, description="Параметр альфа для распределения")
+    steps: int = Field(100, ge=10, le=10000, description="Количество шагов симуляции")
+    alpha: float = Field(1.0, ge=-4.0, le=4.0, description="Параметр альфа для распределения")
     runs: int = Field(1, ge=1, le=100, description="Количество повторений для агрегирования данных")
 
 class SimulationParams3D(BaseModel):
-    steps: int = Field(100, ge=10, le=5000, description="Количество шагов симуляции")
-    alpha: float = Field(1.0, ge=0.1, le=5.0, description="Параметр альфа для распределения")
-    beta: Optional[float] = Field(1.0, ge=0.1, le=5.0, description="Параметр бета для распределения (для 3D)")
-    gamma: Optional[float] = Field(1.0, ge=0.1, le=5.0, description="Параметр гамма для распределения (для 3D)")
+    steps: int = Field(100, ge=10, le=10000, description="Количество шагов симуляции")
+    alpha: float = Field(1.0, ge=-4.0, le=4.0, description="Параметр альфа для распределения")
     runs: int = Field(1, ge=1, le=100, description="Количество повторений для агрегирования данных")
 
 # Глобальные переменные для хранения результатов последних симуляций
@@ -350,8 +347,6 @@ async def simulate_3d(params: SimulationParams3D):
             "metadata": {
                 "steps": params.steps,
                 "alpha": params.alpha,
-                "beta": params.beta,
-                "gamma": params.gamma,
                 "runs": params.runs,
                 "completed_at": datetime.now().isoformat()
             }

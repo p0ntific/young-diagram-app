@@ -255,13 +255,9 @@ const VisualizationCanvas3D: React.FC<IVisualizationCanvas3DProps> = ({
             }
         }
 
-        let maxX = 0;
         let maxY = 0;
-        let maxZ = 0;
         cells.forEach((cell) => {
-            maxX = Math.max(maxX, cell.x);
-            maxY = Math.max(maxY, cell.y); // For positioning runs info
-            maxZ = Math.max(maxZ, cell.z);
+            maxY = Math.max(maxY, cell.y);
         });
 
         const { runs } = simulationParams;
@@ -285,7 +281,7 @@ const VisualizationCanvas3D: React.FC<IVisualizationCanvas3DProps> = ({
             }
 
             const cube = new THREE.Mesh(geometry, cubeMaterial);
-            cube.position.set(cell.x - maxX / 2, cell.y, cell.z - maxZ / 2);
+            cube.position.set(cell.x, cell.y, cell.z);
             cube.castShadow = true;
             cube.receiveShadow = true;
             group.add(cube);

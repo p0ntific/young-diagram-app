@@ -534,3 +534,266 @@
 2025-05-07 13:51:14,496 - young_diagrams_api - INFO - Начало запроса 3a59c342-c9c6-4ce2-89a5-9ce748797f67: GET /limit-shape/3d
 2025-05-07 13:51:17,069 - young_diagrams_api - INFO - Завершение запроса 3a59c342-c9c6-4ce2-89a5-9ce748797f67: 200 за 2.5729с
 2025-05-07 13:51:26,476 - young_diagrams_api - INFO - Завершение работы приложения Young Diagrams API
+2025-05-07 22:04:04,841 - young_diagrams_api - INFO - Запуск приложения Young Diagrams API v1.1.0
+2025-05-07 22:08:58,925 - young_diagrams_api - INFO - Начало запроса eb98554b-146a-436f-ab8b-b3210843f8a3: OPTIONS /simulate/2d
+2025-05-07 22:08:58,926 - young_diagrams_api - INFO - Завершение запроса eb98554b-146a-436f-ab8b-b3210843f8a3: 200 за 0.0009с
+2025-05-07 22:08:58,928 - young_diagrams_api - INFO - Начало запроса b53d1ad0-c1f7-41c7-b367-33276691ba6e: POST /simulate/2d
+2025-05-07 22:08:58,931 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=0.5 runs=5
+2025-05-07 22:08:58,965 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:08:58,990 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:08:59,011 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:08:59,028 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:08:59,046 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:08:59,047 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 639 клеток.
+2025-05-07 22:08:59,049 - young_diagrams_api - INFO - Завершение запроса b53d1ad0-c1f7-41c7-b367-33276691ba6e: 200 за 0.1206с
+2025-05-07 22:09:45,609 - young_diagrams_api - INFO - Начало запроса a0d93299-ae89-41c1-b635-acefe22fa45e: OPTIONS /simulate/3d
+2025-05-07 22:09:45,610 - young_diagrams_api - INFO - Завершение запроса a0d93299-ae89-41c1-b635-acefe22fa45e: 200 за 0.0011с
+2025-05-07 22:09:45,613 - young_diagrams_api - INFO - Начало запроса 62b7ba82-8b4b-473c-a7b3-d7472ec51f1b: POST /simulate/3d
+2025-05-07 22:09:45,617 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=500 alpha=0.5 beta=1.0 gamma=1.0 runs=5
+2025-05-07 22:09:45,690 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:45,730 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:45,778 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:45,820 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:45,865 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:45,865 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 861 клеток.
+2025-05-07 22:09:45,869 - young_diagrams_api - INFO - Завершение запроса 62b7ba82-8b4b-473c-a7b3-d7472ec51f1b: 200 за 0.2552с
+2025-05-07 22:09:54,741 - young_diagrams_api - INFO - Начало запроса 01113178-a2b8-4cfd-8db3-935c94214df9: POST /simulate/3d
+2025-05-07 22:09:54,742 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=500 alpha=5.0 beta=1.0 gamma=1.0 runs=5
+2025-05-07 22:09:54,830 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:54,892 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:54,956 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:55,015 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:55,084 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:09:55,085 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 1750 клеток.
+2025-05-07 22:09:55,092 - young_diagrams_api - INFO - Завершение запроса 01113178-a2b8-4cfd-8db3-935c94214df9: 200 за 0.3514с
+2025-05-07 22:10:21,366 - young_diagrams_api - INFO - Начало запроса 6f37c448-6685-46a4-a469-49c8123e0006: POST /simulate/2d
+2025-05-07 22:10:21,367 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=0.5 runs=5
+2025-05-07 22:10:21,408 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:10:21,432 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:10:21,454 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:10:21,471 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:10:21,490 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:10:21,490 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 637 клеток.
+2025-05-07 22:10:21,492 - young_diagrams_api - INFO - Завершение запроса 6f37c448-6685-46a4-a469-49c8123e0006: 200 за 0.1266с
+2025-05-07 22:11:51,299 - young_diagrams_api - INFO - Начало запроса 3662ffdf-ab88-46f0-ac34-8b9773323bb5: POST /simulate/2d
+2025-05-07 22:11:51,302 - young_diagrams_api - INFO - Завершение запроса 3662ffdf-ab88-46f0-ac34-8b9773323bb5: 422 за 0.0028с
+2025-05-07 22:12:16,950 - young_diagrams_api - INFO - Начало запроса e5638c03-9a53-4717-a667-d84481f06e82: POST /simulate/2d
+2025-05-07 22:12:16,951 - young_diagrams_api - INFO - Завершение запроса e5638c03-9a53-4717-a667-d84481f06e82: 422 за 0.0013с
+2025-05-07 22:13:57,670 - young_diagrams_api - INFO - Начало запроса 0e8f4f35-7f2e-4920-a367-10d58bf7306e: POST /simulate/2d
+2025-05-07 22:13:57,671 - young_diagrams_api - INFO - Завершение запроса 0e8f4f35-7f2e-4920-a367-10d58bf7306e: 422 за 0.0012с
+2025-05-07 22:14:06,901 - young_diagrams_api - INFO - Завершение работы приложения Young Diagrams API
+2025-05-07 22:14:08,074 - young_diagrams_api - INFO - Запуск приложения Young Diagrams API v1.1.0
+2025-05-07 22:14:10,291 - young_diagrams_api - INFO - Начало запроса 7e970b14-6cb3-47a5-9ac0-27677bc48507: POST /simulate/2d
+2025-05-07 22:14:10,293 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=0.0 runs=5
+2025-05-07 22:14:10,293 - diagrams2d.simulator - ERROR - Ошибка в симуляции 1: Параметр alpha должен быть положительным числом
+2025-05-07 22:14:10,293 - young_diagrams_api - ERROR - Ошибка при запуске симуляции 2D: Параметр alpha должен быть положительным числом
+Traceback (most recent call last):
+  File "/Users/goroshko-av/Desktop/study/nir/young_diagrams/backend/api.py", line 198, in simulate_2d
+    simulator.simulate(
+    ~~~~~~~~~~~~~~~~~~^
+        n_steps=params.steps,
+        ^^^^^^^^^^^^^^^^^^^^^
+        alpha=params.alpha,
+        ^^^^^^^^^^^^^^^^^^^
+        runs=params.runs
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/goroshko-av/Desktop/study/nir/young_diagrams/backend/diagrams2d/simulator.py", line 95, in simulate
+    diagram.simulate(n_steps=n_steps, alpha=alpha, callback=growth_callback)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goroshko-av/Desktop/study/nir/young_diagrams/backend/diagrams2d/young_diagram.py", line 129, in simulate
+    raise ValueError("Параметр alpha должен быть положительным числом")
+ValueError: Параметр alpha должен быть положительным числом
+2025-05-07 22:14:10,296 - young_diagrams_api - INFO - Завершение запроса 7e970b14-6cb3-47a5-9ac0-27677bc48507: 500 за 0.0049с
+2025-05-07 22:15:16,159 - young_diagrams_api - INFO - Начало запроса ae50f974-772b-4a00-b645-19efad6f449c: POST /simulate/2d
+2025-05-07 22:15:16,160 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=0.5 runs=5
+2025-05-07 22:15:16,187 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:16,207 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:16,226 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:16,245 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:16,261 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:16,262 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 636 клеток.
+2025-05-07 22:15:16,264 - young_diagrams_api - INFO - Завершение запроса ae50f974-772b-4a00-b645-19efad6f449c: 200 за 0.1049с
+2025-05-07 22:15:20,210 - young_diagrams_api - INFO - Начало запроса eda6aadf-d255-4d8c-ad2f-e30d10ff2c4c: POST /simulate/2d
+2025-05-07 22:15:20,211 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=-4.0 runs=5
+2025-05-07 22:15:20,211 - diagrams2d.simulator - ERROR - Ошибка в симуляции 1: Параметр alpha должен быть положительным числом
+2025-05-07 22:15:20,211 - young_diagrams_api - ERROR - Ошибка при запуске симуляции 2D: Параметр alpha должен быть положительным числом
+Traceback (most recent call last):
+  File "/Users/goroshko-av/Desktop/study/nir/young_diagrams/backend/api.py", line 198, in simulate_2d
+    simulator.simulate(
+    ~~~~~~~~~~~~~~~~~~^
+        n_steps=params.steps,
+        ^^^^^^^^^^^^^^^^^^^^^
+        alpha=params.alpha,
+        ^^^^^^^^^^^^^^^^^^^
+        runs=params.runs
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/goroshko-av/Desktop/study/nir/young_diagrams/backend/diagrams2d/simulator.py", line 95, in simulate
+    diagram.simulate(n_steps=n_steps, alpha=alpha, callback=growth_callback)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goroshko-av/Desktop/study/nir/young_diagrams/backend/diagrams2d/young_diagram.py", line 129, in simulate
+    for step in range(n_steps):
+        ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Параметр alpha должен быть положительным числом
+2025-05-07 22:15:20,212 - young_diagrams_api - INFO - Завершение запроса eda6aadf-d255-4d8c-ad2f-e30d10ff2c4c: 500 за 0.0020с
+2025-05-07 22:15:22,630 - young_diagrams_api - INFO - Завершение работы приложения Young Diagrams API
+2025-05-07 22:15:23,538 - young_diagrams_api - INFO - Запуск приложения Young Diagrams API v1.1.0
+2025-05-07 22:15:28,052 - young_diagrams_api - INFO - Начало запроса 8d30385a-c388-47bd-a177-2ee28889b331: POST /simulate/2d
+2025-05-07 22:15:28,053 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=-1.0 runs=5
+2025-05-07 22:15:28,076 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:28,094 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:28,110 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:28,126 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:28,142 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:28,143 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 578 клеток.
+2025-05-07 22:15:28,145 - young_diagrams_api - INFO - Завершение запроса 8d30385a-c388-47bd-a177-2ee28889b331: 200 за 0.0931с
+2025-05-07 22:15:41,218 - young_diagrams_api - INFO - Начало запроса 7a15928e-5f2b-47b6-a5aa-a22183b5ef94: POST /simulate/2d
+2025-05-07 22:15:41,218 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=-0.5 runs=5
+2025-05-07 22:15:41,251 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:41,269 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:41,288 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:41,305 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:41,322 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:41,322 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 582 клеток.
+2025-05-07 22:15:41,324 - young_diagrams_api - INFO - Завершение запроса 7a15928e-5f2b-47b6-a5aa-a22183b5ef94: 200 за 0.1067с
+2025-05-07 22:15:45,233 - young_diagrams_api - INFO - Начало запроса f4be0f90-69de-4c01-8c3f-aa6827a61b25: POST /simulate/2d
+2025-05-07 22:15:45,234 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=-3.0 runs=5
+2025-05-07 22:15:45,262 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:45,281 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:45,299 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:45,316 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:45,333 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:45,333 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 553 клеток.
+2025-05-07 22:15:45,336 - young_diagrams_api - INFO - Завершение запроса f4be0f90-69de-4c01-8c3f-aa6827a61b25: 200 за 0.1026с
+2025-05-07 22:15:48,648 - young_diagrams_api - INFO - Начало запроса 5e654286-c2ed-4767-b873-6a36f968d21e: POST /simulate/2d
+2025-05-07 22:15:48,650 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=-4.0 runs=5
+2025-05-07 22:15:48,676 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:48,694 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:48,711 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:48,728 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:48,745 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:48,745 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 548 клеток.
+2025-05-07 22:15:48,747 - young_diagrams_api - INFO - Завершение запроса 5e654286-c2ed-4767-b873-6a36f968d21e: 200 за 0.0984с
+2025-05-07 22:15:52,053 - young_diagrams_api - INFO - Начало запроса fbd0f96c-5f88-4129-b006-5f49d09c107f: POST /simulate/2d
+2025-05-07 22:15:52,053 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=4.0 runs=5
+2025-05-07 22:15:52,114 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:52,160 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:52,224 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:52,275 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:52,317 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:15:52,317 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 1005 клеток.
+2025-05-07 22:15:52,321 - young_diagrams_api - INFO - Завершение запроса fbd0f96c-5f88-4129-b006-5f49d09c107f: 200 за 0.2684с
+2025-05-07 22:16:06,808 - young_diagrams_api - INFO - Начало запроса 0bc45509-cee6-4ede-a001-9bbf2bc5d01e: POST /simulate/2d
+2025-05-07 22:16:06,808 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=0.001 runs=5
+2025-05-07 22:16:06,839 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:06,864 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:06,881 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:06,901 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:06,920 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:06,921 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 614 клеток.
+2025-05-07 22:16:06,923 - young_diagrams_api - INFO - Завершение запроса 0bc45509-cee6-4ede-a001-9bbf2bc5d01e: 200 за 0.1154с
+2025-05-07 22:16:12,023 - young_diagrams_api - INFO - Начало запроса 025eade3-f922-45f9-a1bc-4495a9e296ca: POST /simulate/2d
+2025-05-07 22:16:12,024 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=1e-05 runs=5
+2025-05-07 22:16:12,057 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:12,076 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:12,095 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:12,113 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:12,130 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:12,131 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 616 клеток.
+2025-05-07 22:16:12,134 - young_diagrams_api - INFO - Завершение запроса 025eade3-f922-45f9-a1bc-4495a9e296ca: 200 за 0.1108с
+2025-05-07 22:16:17,316 - young_diagrams_api - INFO - Начало запроса f3b8244b-c26b-4a8f-95e7-433c4fef69ad: POST /simulate/2d
+2025-05-07 22:16:17,316 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=0.0 runs=5
+2025-05-07 22:16:17,350 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:17,369 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:17,397 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:17,413 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:17,430 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:17,431 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 619 клеток.
+2025-05-07 22:16:17,434 - young_diagrams_api - INFO - Завершение запроса f3b8244b-c26b-4a8f-95e7-433c4fef69ad: 200 за 0.1184с
+2025-05-07 22:16:23,795 - young_diagrams_api - INFO - Начало запроса 2c0f0158-df24-4a13-8699-a4c41389ccc6: POST /simulate/2d
+2025-05-07 22:16:23,796 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=-1.0 runs=5
+2025-05-07 22:16:23,826 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:23,845 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:23,863 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:23,881 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:23,899 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:23,900 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 580 клеток.
+2025-05-07 22:16:23,902 - young_diagrams_api - INFO - Завершение запроса 2c0f0158-df24-4a13-8699-a4c41389ccc6: 200 за 0.1070с
+2025-05-07 22:16:27,416 - young_diagrams_api - INFO - Начало запроса 5d2aeaed-1f73-48c6-9f22-fe2879523269: POST /simulate/2d
+2025-05-07 22:16:27,416 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=500 alpha=-2.0 runs=5
+2025-05-07 22:16:27,445 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:27,463 - diagrams2d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:27,480 - diagrams2d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:27,497 - diagrams2d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:27,513 - diagrams2d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:16:27,514 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 547 клеток.
+2025-05-07 22:16:27,516 - young_diagrams_api - INFO - Завершение запроса 5d2aeaed-1f73-48c6-9f22-fe2879523269: 200 за 0.0999с
+2025-05-07 22:16:33,350 - young_diagrams_api - INFO - Начало запроса a62edf7d-8cc9-4bf3-bd8f-91c1b9c1210d: POST /simulate/2d
+2025-05-07 22:16:33,351 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=10000 alpha=-2.0 runs=1
+2025-05-07 22:16:37,987 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 10001 клеток.
+2025-05-07 22:16:37,991 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 10001 клеток.
+2025-05-07 22:16:38,022 - young_diagrams_api - INFO - Завершение запроса a62edf7d-8cc9-4bf3-bd8f-91c1b9c1210d: 200 за 4.6720с
+2025-05-07 22:16:51,445 - young_diagrams_api - INFO - Начало запроса c53085c4-4dcf-40b1-b920-020f7f7056ad: POST /simulate/2d
+2025-05-07 22:16:51,447 - young_diagrams_api - INFO - Starting 2D simulation with params: steps=10000 alpha=0.5 runs=1
+2025-05-07 22:16:56,762 - diagrams2d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 10001 клеток.
+2025-05-07 22:16:56,785 - young_diagrams_api - INFO - 2D симуляция успешно завершена. Создано 10001 клеток.
+2025-05-07 22:16:56,817 - young_diagrams_api - INFO - Завершение запроса c53085c4-4dcf-40b1-b920-020f7f7056ad: 200 за 5.3719с
+2025-05-07 22:17:03,897 - young_diagrams_api - INFO - Начало запроса a433c84b-f596-458d-b1b0-f4e40bb1bcb3: POST /simulate/3d
+2025-05-07 22:17:03,901 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=500 alpha=-1.0 runs=5
+2025-05-07 22:17:03,959 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:17:04,009 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:17:04,060 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:17:04,111 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:17:04,162 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 501 клеток.
+2025-05-07 22:17:04,162 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 636 клеток.
+2025-05-07 22:17:04,165 - young_diagrams_api - INFO - Завершение запроса a433c84b-f596-458d-b1b0-f4e40bb1bcb3: 200 за 0.2678с
+2025-05-07 22:17:07,356 - young_diagrams_api - INFO - Начало запроса a85c83f5-5b3f-486f-ae1f-a65542b811b1: POST /simulate/3d
+2025-05-07 22:17:07,357 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=5000 alpha=-1.0 runs=5
+2025-05-07 22:17:11,517 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:17:15,718 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:17:19,899 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:17:24,031 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:17:28,169 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:17:28,171 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 5729 клеток.
+2025-05-07 22:17:28,194 - young_diagrams_api - INFO - Завершение запроса a85c83f5-5b3f-486f-ae1f-a65542b811b1: 200 за 20.8379с
+2025-05-07 22:17:45,138 - young_diagrams_api - INFO - Начало запроса 2e87cab4-dadf-4195-bff2-bb29eb3dc253: POST /simulate/3d
+2025-05-07 22:17:45,140 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=5000 alpha=-2.0 runs=5
+2025-05-07 22:17:49,829 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:17:54,441 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:17:59,042 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:03,692 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:08,290 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:08,292 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 5599 клеток.
+2025-05-07 22:18:08,315 - young_diagrams_api - INFO - Завершение запроса 2e87cab4-dadf-4195-bff2-bb29eb3dc253: 200 за 23.1769с
+2025-05-07 22:18:14,400 - young_diagrams_api - INFO - Начало запроса b6e94ffd-1383-4798-812f-a99ed222c934: POST /simulate/3d
+2025-05-07 22:18:14,402 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=5000 alpha=2.0 runs=5
+2025-05-07 22:18:18,810 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:25,877 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:33,823 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:38,383 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:45,672 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:18:45,679 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 23699 клеток.
+2025-05-07 22:18:45,777 - young_diagrams_api - INFO - Завершение запроса b6e94ffd-1383-4798-812f-a99ed222c934: 200 за 31.3767с
+2025-05-07 22:18:55,637 - young_diagrams_api - INFO - Начало запроса 5340c134-c8b4-44e1-9d0e-b8c04f10a8de: POST /simulate/3d
+2025-05-07 22:18:55,638 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=5000 alpha=0.5 runs=5
+2025-05-07 22:18:59,519 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:19:03,389 - diagrams3d.simulator - INFO - Симуляция 2 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:19:06,150 - diagrams3d.simulator - INFO - Симуляция 3 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:19:09,408 - diagrams3d.simulator - INFO - Симуляция 4 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:19:12,363 - diagrams3d.simulator - INFO - Симуляция 5 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:19:12,367 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 9795 клеток.
+2025-05-07 22:19:12,405 - young_diagrams_api - INFO - Завершение запроса 5340c134-c8b4-44e1-9d0e-b8c04f10a8de: 200 за 16.7682с
+2025-05-07 22:19:12,405 - young_diagrams_api - INFO - Начало запроса bd51f2fc-de56-4e75-9abc-67eb750c7536: POST /simulate/3d
+2025-05-07 22:19:12,406 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=5000 alpha=0.5 runs=1
+2025-05-07 22:19:15,210 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:19:15,212 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 5001 клеток.
+2025-05-07 22:19:15,232 - young_diagrams_api - INFO - Завершение запроса bd51f2fc-de56-4e75-9abc-67eb750c7536: 200 за 2.8263с
+2025-05-07 22:19:33,946 - young_diagrams_api - INFO - Начало запроса 59f531aa-6c0e-44c6-8ddb-6c529318608f: POST /simulate/3d
+2025-05-07 22:19:33,947 - young_diagrams_api - INFO - Starting 3D simulation with params: steps=5000 alpha=0.0001 runs=1
+2025-05-07 22:19:37,499 - diagrams3d.simulator - INFO - Симуляция 1 завершена. Размер диаграммы: 5001 клеток.
+2025-05-07 22:19:37,501 - young_diagrams_api - INFO - 3D симуляция успешно завершена. Создано 5001 клеток.
+2025-05-07 22:19:37,522 - young_diagrams_api - INFO - Завершение запроса 59f531aa-6c0e-44c6-8ddb-6c529318608f: 200 за 3.5757с
+2025-05-07 22:20:09,554 - young_diagrams_api - INFO - Завершение работы приложения Young Diagrams API

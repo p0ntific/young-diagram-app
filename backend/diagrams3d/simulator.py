@@ -79,8 +79,6 @@ class DiagramSimulator3D:
             raise ValueError("Количество шагов должно быть положительным числом")
         if runs <= 0:
             raise ValueError("Количество симуляций должно быть положительным числом")
-        if alpha <= 0:
-            raise ValueError("Параметр alpha должен быть положительным числом")
             
         # Обновляем счетчик для новой симуляции
         self.total_cell_counts = defaultdict(int)

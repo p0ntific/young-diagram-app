@@ -125,8 +125,6 @@ class Diagram2D:
         # Валидация входных параметров
         if n_steps <= 0:
             raise ValueError("Количество шагов должно быть положительным числом")
-        if alpha <= 0:
-            raise ValueError("Параметр alpha должен быть положительным числом")
             
         for step in range(n_steps):
             # Получаем все ячейки, которые можно добавить
