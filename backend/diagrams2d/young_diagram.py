@@ -88,7 +88,7 @@ class Diagram2D:
             Вес ячейки для вероятностного выбора.
         """
         x, y = cell
-        total = (x + 1) + (y + 1)  # Площадь прямоугольника
+        total = (x + 1) * (y + 1)  # Площадь прямоугольника
         return total ** alpha
     
     def add_cell(self, cell: Tuple[int, int]) -> None:
